@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login page</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no" />
+    <!-- Fonts to support Material Design -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+    <!-- Icons to support Material Design -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/css/mdb.min.css" rel="stylesheet">
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/js/mdb.min.js"></script>
+    <style type="text/css">
+
+        .ddata td,
+        th {
+            padding: 2.5px !important;
+        }
+        .nav-tabs span{
+          color: white ;
+          border: 1px solid #ccc !important;
+        }
+        .nav-tabs .active{
+          color: black !important;
+          font-weight: bolder !important;
+        }
+        
+        .ddata th,td,tr {
+            font-size: 12.5px !important;
+        }
+        
+        th {
+            font-weight: bolder
+        }
+        
+        .sponsors {
+            font-weight: bold
+        }
+        
+        .footerlink a {
+            color: rgb(30, 50, 70);
+            font-weight: bold;
+            font-size: 14px
+        }
+        
+        .bottomfooter {
+            background: rgb(30, 50, 70);
+            padding: 10px 20px;
+            width: 100%;
+            font-weight: bold;
+            color: whitesmoke;
+        }
+        .getstarted{
+          border: 2px solid #ffc846; border-radius: 100px; padding-left: 20px !important; padding-right: 20px !important; margin-left:10px;
+          text-align: center;
+          font-weight: bold
+        }
+        .th{
+          width: 500% !important
+        }
+        .login{
+          color: black; font-weight:bold; font-size: 40px;
+          color: rgb(30, 50, 70);
+        }
+        .pcnav{
+          margin-left: 150px
+        }
+        .cta{
+          margin-left: 100px
+        }
+          @media only screen and (max-width: 600px){
+      .pcnav{
+        margin-left: 0px
+      }
+      .cta{
+        margin-left: 0px;
+      }
+    }
+    .nav-link{
+      font-weight: bolder
+    }
+    table {
+    table-layout: fixed;
+}
+
+.login-list{
+  background: white;
+  padding: 50px;
+  border-radius: 5px;
+  border: 1px solid #f2f2f2;
+}
+.login-bg{
+  background: rgba(255,255,255,.9);
+  padding: 50px;
+  border-radius: 10px;
+  border: 1px solid #f2f2f2;
+}
+.linkedin{
+  background: #0e76a8;
+  color:whitesmoke;
+}
+.google{
+  border: 1px solid #ccc !important;
+}
+.google:hover{
+  background: #f2f2f2
+}
+.linkedin:hover{
+  background: #0a557a;
+  color: white;
+}
+
+.linkedin-alt{
+  background: #fff;
+  padding: 15px !important;
+  border: 1px solid #ccc !important;
+}
+.google-alt{
+  padding: 15px !important;
+  padding-top: 0px;
+  border: 1px solid #ccc !important;
+}
+.google-alt:hover{
+  background: #f2f2f2
+}
+.login-list .btn{
+  border: none;
+  border-radius: 30px;
+  padding: 15px 25px;
+}
+.login-input{
+  padding: 20px 8px
+}
+.login-label{
+  margin-bottom: 10px;
+  margin-left: 5px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.login-list .btn img{
+  float: left;
+    left: 100px;
+    width: 30px;
+}
+.login-bg .btn{
+  border: none;
+  padding: 15px 25px;
+  border-radius: 30px;
+}
+.login-bg .btn img{
+  float: left;
+    left: 100px;
+    width: 30px;
+}
+
+.login-link{
+  margin-top: 10px;
+}
+    </style>
+</head>
+
+<body>
+    <!--Navbar-->
+    <div style="background: rgb(30, 50, 70) !important">
+        <nav class="navbar navbar-expand-lg navbar-dark primary-color fixed-top " style="background: rgb(30, 50, 70) !important; box-shadow: none">
+
+            <!-- Navbar brand -->
+            <a class="navbar-brand" href="#"><img src="https://not-forgotten.com/logo.svg" width="100%" /></a>
+
+            <!-- Collapse button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse" id="basicExampleNav">
+
+                <!-- Links -->
+                <ul class="navbar-nav pcnav">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">How it works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Packages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Explore Library</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav cta">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">I have a access code</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link getstarted" href="#"> Get started</a>
+                    </li>
+
+                </ul>
+                <!-- Links -->
+
+            </div>
+            <!-- Collapsible content -->
+
+        </nav>
+    </div>
+    <div style="border-bottom: 5px solid white;"></div>
+
+    <!--/.Navbar-->
+    <div style="background: #e6e6e6">
+
+        <div style="padding: 80px 0px;">
+          <Br>
+          <Br>
+            <div class="container">
+                <br>
+                <h3 class="login text-center" style="color: rg">Login to your account</h3>
+                <div class="row">
+                <div class="col-md-2"></div>
+            <div class="col-md-8" style="padding: 9px">
+                <div class="login-bg">
+                <p class="text- login-label">Email</p>
+                <input type="text" class="form-control login-input" name="" autofocus="">
+                <br>
+                <p class="text- login-label">Password</p>
+                <input type="password" class="form-control login-input" name="" autofocus="">
+                <br>
+                <br>
+                <a href="#" class="btn  btn-block loginbtn" style="    background: rgb(30, 50, 70);
+    color: whitesmoke;font-weight: bold">
+                    <h5 style="font-weight: bold; margin-bottom: 0px">Login</h5>
+                </a>
+            </div>
+          </div>
+        </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+
+    </div>
+
+    <br>
+    <br>
+
+    <br>
+    <br>
+    <br>
+    <div class="container-fluid">
+        <div class="row footerlink">
+            <div class="col-md-2 col-6">
+                <ul class="nav flex-column  lighten-4 py-4">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#!">How it works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#!">Packages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#!">Explore Library</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-6">
+                <ul class="nav flex-column lighten-4 py-4">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#!">I have a licence code</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#!">Get Started</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#!">FAQs</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-6">
+                <ul class="nav flex-column  lighten-4 py-4">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#!">View our Brochure</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#!">Our Story</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#!">Get in touch</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-6">
+                <ul class="nav flex-column  lighten-4 py-4">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#!">Your Privacy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#!">Terms and conditions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#!">Privacy Policy</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-6">
+                <ul class="nav flex-column  lighten-4 py-4">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#!">Follow our social</a>
+                    </li>
+                    <li class="nav-item" style="display: inline-block !important;">
+                      <a href="https://www.facebook.com/am.not.forgotten/" target="_blank" data-v-09dde08b><svg id="facebook-logo-button" xmlns="http://www.w3.org/2000/svg" width="29.791" height="29.791" viewBox="0 0 29.791 29.791" data-v-09dde08b><path id="Shape" d="M14.9,29.791a14.9,14.9,0,1,1,14.9-14.9A14.912,14.912,0,0,1,14.9,29.791ZM10.878,12.367V15.42h1.707v8.638h3.591V15.42H18.6l.313-3.052H16.177V10.574a.733.733,0,0,1,.761-.832H18.87V6.779l-2.66-.01A3.4,3.4,0,0,0,13.291,8.05a4.027,4.027,0,0,0-.705,2.342v1.975Z" fill="#1e3246" data-v-09dde08b></path></svg></a> 
+                      <a style="margin-left: 10px" href="https://www.instagram.com/am.not.forgotten/" target="_blank"><img src="https://not-forgotten.com/instagram.svg" alt="Instagram"></a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="bottomfooter">
+        Copyright 2019 Not Forgotten
+    </div>
+</body>
+
+</html>

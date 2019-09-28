@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>First page</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no" />
+    <!-- Fonts to support Material Design -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+    <!-- Icons to support Material Design -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/css/mdb.min.css" rel="stylesheet">
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/js/mdb.min.js"></script>
+    <style type="text/css">
+
+        .ddata td,
+        th {
+            padding: 2.5px !important;
+        }
+        .nav-tabs span{
+          color: white ;
+          border: 1px solid #ccc !important;
+        }
+        .nav-tabs .active{
+          color: black !important;
+          font-weight: bolder !important;
+        }
+        
+        .ddata th,td,tr {
+            font-size: 12.5px !important;
+        }
+        
+        th {
+            font-weight: bolder
+        }
+        
+        .sponsors {
+            font-weight: bold
+        }
+        
+        .footerlink a {
+            color: rgb(30, 50, 70);
+            font-weight: bold;
+            font-size: 14px
+        }
+        
+        .bottomfooter {
+            background: rgb(30, 50, 70);
+            padding: 10px 20px;
+            width: 100%;
+            font-weight: bold;
+            color: whitesmoke;
+        }
+        .getstarted{
+          border: 2px solid #ffc846; border-radius: 100px; padding-left: 20px !important; padding-right: 20px !important; margin-left:10px;
+          text-align: center;
+          font-weight: bold
+        }
+        .th{
+          width: 500% !important
+        }
+        .blockchain{
+          color: white; font-weight:bold; font-size: 70px;
+        }
+        .pcnav{
+          margin-left: 150px
+        }
+        .cta{
+          margin-left: 100px
+        }
+          @media only screen and (max-width: 600px){
+      .pcnav{
+        margin-left: 0px
+      }
+      .cta{
+        margin-left: 0px;
+      }
+    }
+    .nav-link{
+      font-weight: bolder
+    }
+    table {
+    table-layout: fixed;
+}
+.fancyscrool{
+
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ccc; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+    </style>
+</head>
+
+<body>
+    <!--Navbar-->
+    <div style="background: rgb(30, 50, 70) !important">
+        <nav class="navbar navbar-expand-lg navbar-dark primary-color fixed-top " style="background: rgb(30, 50, 70) !important; box-shadow: none">
+
+            <!-- Navbar brand -->
+            <a class="navbar-brand" href="#"><img src="https://not-forgotten.com/logo.svg" width="100%" /></a>
+
+            <!-- Collapse button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse" id="basicExampleNav">
+
+                <!-- Links -->
+                <ul class="navbar-nav pcnav">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">How it works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Packages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Explore Library</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav cta">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">I have a access code</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link getstarted" href="#"> Get started</a>
+                    </li>
+
+                </ul>
+                <!-- Links -->
+
+            </div>
+            <!-- Collapsible content -->
+
+        </nav>
+        <div style="padding: 80px 50px;">
+          <Br>
+          <Br>
+            <div class="container">
+                <h1 class="blockchain">Blockchain</h1>
+            </div>
+        </div>
+        <div class="container">
+            <ul class="nav nav-tabs" style="border-bottom: none">
+                <li class="nav-item">
+                    <span class="nav-link active" data-toggle="tab"  href="#contract"><strong>The Contract</strong></span>
+                </li>
+                <li class="nav-item" style="">
+                    <span class="nav-link" href="#eth" data-toggle="tab" style="border: 1px solid #ccc; margin-left:20px; color: white">Etherum</span>
+                </li>
+                <li class="nav-item" style="">
+                    <span class="nav-link" href="#record" data-toggle="tab" style="border: 1px solid #ccc; margin-left:20px; color: white">Transaction Record</span>
+                </li>
+            </ul>
+
+           
+        </div>
+    </div>
+    <div style="border-bottom: 5px solid white;"></div>
+
+    <!--/.Navbar-->
+    <div style="background: #e6e6e6">
+       <div class="tab-content">
+  
+        <div id="contract" class="tab-pane in active container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <div style="padding: 60px 20px">
+                        <strong>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus in quam malesuada, vulputate est et, egestas justo. 
+    </strong>
+                        <br>
+                        <br>
+                        <button class="btn btn-" style="font-weight:bold;background: #ffc846;border: 1px solid #ffc846; border-radius: 100px; padding-left: 20px; padding-right: 20px; margin-left:10px">See it on Etherum</button>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <Br>
+                    <div class="row">
+                        <div class="col-md-1 col-1" style="padding-top: 9px;">
+                            <Center>
+                                <i class="fa fa-search" style="opacity: .5"> </i>
+                            </Center>
+                        </div>
+                        <div class="col-md-6 col-11" style="padding:0px">
+                            <input type="text" class="form-control" style="border-radius: 40px" placeholder="SEARCH">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+
+<style type="text/css">
+  .text-bold{
+    font-weight: bold
+  }
+</style>
+                        <div class="col-md-6" style="margin-bottom: 20px; ">
+                            <div class="row">
+                                <div class=" d-flex" style="background:rgb(30, 50, 70); padding: 15px; min-height: 210px; width: 26%">
+                                    <h4 style=" color: #ffc846; font-weight:bold; line-height: 30px; font-size: 15px">
+      Given Name,
+    <br>
+      Last Name
+      <br>
+<br>
+    <div class="btn btn-xs" style="font-weight:bold;background: #ffc846;border: 1px solid #ffc846; border-radius: 100px; padding:5px 10px; color: black; font-size: 10px; bottom: 20px; position: absolute; left: 0px">See it on Etherum</div>
+    </h4>
+
+                                </div>
+                                <div class=" " style="background: white; padding: 10px; font-size: 12px; height:210px; width: 72%; overflow: scroll;">
+                                  <div class="row border-bottom"><div class="col-5 text-bold">Year</div><div class="col-7">1974</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">GECCOM UID</div><div class="col-7">NotForgotten Digital Preservation Library LLC, Delaware company file 7406212. OCLC library</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">DCLC/WorldCat Ref</div><div class="col-7">https://libraryrecords.not-forgotten.com/digital/collection/NotForgotten/id/42/rec/</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">Video Record Locator</div><div class="col-7">s3-notforgotten-singlefile-or-1.s3.amazonaws.com/notforgotten/2019/re-creation+of+case+studie</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">Transaction #</div><div class="col-7">Ox30fc0104ea4ee47672d7fe017c68e6040113377ce0250e038b6d46e207bcb706</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold"> Initial Transaction Date</div><div class="col-7">21 Aug 2019</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">Transaction Last Modification Date</div><div class="col-7">09 Sept 2019</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold"> Number of years on contract</div><div class="col-7">300</div></div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                        <div class="col-md-6" style="margin-bottom: 20px; ">
+                            <div class="row">
+                                <div class=" d-flex" style="background:rgb(30, 50, 70); padding: 15px; min-height: 210px; width: 26%">
+                                    <h4 style=" color: #ffc846; font-weight:bold; line-height: 30px; font-size: 15px">
+      Given Name,
+    <br>
+      Last Name
+      <br>
+<br>
+    <div class="btn btn-xs" style="font-weight:bold;background: #ffc846;border: 1px solid #ffc846; border-radius: 100px; padding:5px 10px; color: black; font-size: 10px; bottom: 20px; position: absolute; left: 0px">See it on Etherum</div>
+    </h4>
+
+                                </div>
+                                <div class=" " style="background: white; padding: 10px; font-size: 12px; height:210px; width: 72%; overflow: scroll;">
+                                  <div class="row border-bottom"><div class="col-5 text-bold">Year</div><div class="col-7">1974</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">GECCOM UID</div><div class="col-7">NotForgotten Digital Preservation Library LLC, Delaware company file 7406212. OCLC library</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">DCLC/WorldCat Ref</div><div class="col-7">https://libraryrecords.not-forgotten.com/digital/collection/NotForgotten/id/42/rec/</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">Video Record Locator</div><div class="col-7">s3-notforgotten-singlefile-or-1.s3.amazonaws.com/notforgotten/2019/re-creation+of+case+studie</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">Transaction #</div><div class="col-7">Ox30fc0104ea4ee47672d7fe017c68e6040113377ce0250e038b6d46e207bcb706</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold"> Initial Transaction Date</div><div class="col-7">21 Aug 2019</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">Transaction Last Modification Date</div><div class="col-7">09 Sept 2019</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold"> Number of years on contract</div><div class="col-7">300</div></div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                        <div class="col-md-6" style="margin-bottom: 20px; ">
+                            <div class="row">
+                                <div class=" d-flex" style="background:rgb(30, 50, 70); padding: 15px; min-height: 210px; width: 26%">
+                                    <h4 style=" color: #ffc846; font-weight:bold; line-height: 30px; font-size: 15px">
+      Given Name,
+    <br>
+      Last Name
+      <br>
+<br>
+    <div class="btn btn-xs" style="font-weight:bold;background: #ffc846;border: 1px solid #ffc846; border-radius: 100px; padding:5px 10px; color: black; font-size: 10px; bottom: 20px; position: absolute; left: 0px">See it on Etherum</div>
+    </h4>
+
+                                </div>
+                                <div class=" " style="background: white; padding: 10px; font-size: 12px; height:210px; width: 72%; overflow: scroll;">
+                                  <div class="row border-bottom"><div class="col-5 text-bold">Year</div><div class="col-7">1974</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">GECCOM UID</div><div class="col-7">NotForgotten Digital Preservation Library LLC, Delaware company file 7406212. OCLC library</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">DCLC/WorldCat Ref</div><div class="col-7">https://libraryrecords.not-forgotten.com/digital/collection/NotForgotten/id/42/rec/</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">Video Record Locator</div><div class="col-7">s3-notforgotten-singlefile-or-1.s3.amazonaws.com/notforgotten/2019/re-creation+of+case+studie</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">Transaction #</div><div class="col-7">Ox30fc0104ea4ee47672d7fe017c68e6040113377ce0250e038b6d46e207bcb706</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold"> Initial Transaction Date</div><div class="col-7">21 Aug 2019</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">Transaction Last Modification Date</div><div class="col-7">09 Sept 2019</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold"> Number of years on contract</div><div class="col-7">300</div></div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                        <div class="col-md-6" style="margin-bottom: 20px; ">
+                            <div class="row">
+                                <div class=" d-flex" style="background:rgb(30, 50, 70); padding: 15px; min-height: 210px; width: 26%">
+                                    <h4 style=" color: #ffc846; font-weight:bold; line-height: 30px; font-size: 15px">
+      Given Name,
+    <br>
+      Last Name
+      <br>
+<br>
+    <div class="btn btn-xs" style="font-weight:bold;background: #ffc846;border: 1px solid #ffc846; border-radius: 100px; padding:5px 10px; color: black; font-size: 10px; bottom: 20px; position: absolute; left: 0px">See it on Etherum</div>
+    </h4>
+
+                                </div>
+                                <div class=" " style="background: white; padding: 10px; font-size: 12px; height:210px; width: 72%; overflow: scroll;">
+                                  <div class="row border-bottom"><div class="col-5 text-bold">Year</div><div class="col-7">1974</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">GECCOM UID</div><div class="col-7">NotForgotten Digital Preservation Library LLC, Delaware company file 7406212. OCLC library</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">DCLC/WorldCat Ref</div><div class="col-7">https://libraryrecords.not-forgotten.com/digital/collection/NotForgotten/id/42/rec/</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">Video Record Locator</div><div class="col-7">s3-notforgotten-singlefile-or-1.s3.amazonaws.com/notforgotten/2019/re-creation+of+case+studie</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">Transaction #</div><div class="col-7">Ox30fc0104ea4ee47672d7fe017c68e6040113377ce0250e038b6d46e207bcb706</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold"> Initial Transaction Date</div><div class="col-7">21 Aug 2019</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">Transaction Last Modification Date</div><div class="col-7">09 Sept 2019</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold"> Number of years on contract</div><div class="col-7">300</div></div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+  <div id="eth" class="tab-pane fade">
+    <div class="container" style="padding: 20px 0px">
+      <iframe title="contracts" src="https://blockscout.com/eth/mainnet/address/0xf78bcf4d8f6f6ae051fcfb104884c130b4c4d149" height="600px" width="100%" frameborder="0"></iframe>      
+    </div>
+  </div>
+  <div id="record" class="tab-pane fade" style="padding: 20px">
+     <div class="container-fluid" style="padding:">
+      <br>
+      <div class="row">
+      <div class="col-md-5" style="margin-bottom: 50px">
+          <div class="row">
+                                <div class=" d-flex" style="background:rgb(30, 50, 70); padding: 15px; min-height: 210px; width: 26%">
+                                    <h4 style=" color: #ffc846; font-weight:bold; line-height: 30px; font-size: 15px">
+      Given Name,
+    <br>
+      Last Name
+      <br>
+<br>
+    <div class="btn btn-xs" style="font-weight:bold;background: #ffc846;border: 1px solid #ffc846; border-radius: 100px; padding:5px 10px; color: black; font-size: 10px; top: 150px; position: absolute; left: 0px">See it on Etherum</div>
+    </h4>
+
+                                </div>
+                                <div class=" " style="background: white; padding: 10px; font-size: 12px; height:210px; width: 74%; overflow: scroll;">
+                                  <div class="row border-bottom"><div class="col-5 text-bold">Year</div><div class="col-7">1974</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">GECCOM UID</div><div class="col-7">NotForgotten Digital Preservation Library LLC, Delaware company file 7406212. OCLC library</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">DCLC/WorldCat Ref</div><div class="col-7">https://libraryrecords.not-forgotten.com/digital/collection/NotForgotten/id/42/rec/</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">Video Record Locator</div><div class="col-7">s3-notforgotten-singlefile-or-1.s3.amazonaws.com/notforgotten/2019/re-creation+of+case+studie</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">Transaction #</div><div class="col-7">Ox30fc0104ea4ee47672d7fe017c68e6040113377ce0250e038b6d46e207bcb706</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold"> Initial Transaction Date</div><div class="col-7">21 Aug 2019</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">Transaction Last Modification Date</div><div class="col-7">09 Sept 2019</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold"> Number of years on contract</div><div class="col-7">300</div></div>
+                                </div>
+
+                            </div>
+
+
+<br>
+<style type="text/css">
+  .subscribe:hover{
+    background: #ffc846;
+  }
+  .subscribe{
+    background: #f7d176
+  }
+</style>
+<input type="text" class="form-control" name="" style="padding: 30px; border-radius: 100px" placeholder="EMAIL">
+<button class="btn btn-block subscribe" style="font-weight:bold;border: 1px solid #ffc846; padding: ; border-radius: 100px; padding-left: 20px; padding-right: 20px; width: 95%">Subscribe me to the annual renewal event</button>
+
+      </div>
+      <div class="col-md-7">
+      <iframe title="contracts" src="https://blockscout.com/eth/mainnet/address/0xf78bcf4d8f6f6ae051fcfb104884c130b4c4d149" height="600px" width="100%" frameborder="0"></iframe>      
+                                   
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+        <br>
+        <br>
+        <br>
+
+    </div>
+
+    <br>
+    <br>
+
+    <div class="container">
+        <div class="row sponsors">
+            <div class="col-md-3 col-6" style="text-align:Center">
+                <img class="" src="https://not-forgotten.com/logos/amia.png" width="100px" alt="Generic placeholder image">
+                <br> 
+                <p style="margin-top: 10px; font-size: 13.2px">Association of Moving Image Archivists</p>
+                <br> 
+            </div>
+            <div class="col-md-3 col-6" style="text-align:Center">
+                <img class="" src="https://not-forgotten.com/logos/fhiso.png" width="100px" alt="Generic placeholder image">
+                <br> 
+                <p style="margin-top: 10px; font-size: 13.2px">The Family History Information Standards Organisation</p>
+                <br> 
+            </div>
+            <div class="col-md-3 col-6" style="text-align:Center">
+                <img class="" src="https://not-forgotten.com/logos/ica.png" width="100px" alt="Generic placeholder image">
+                <br> 
+                <p style="margin-top: 10px; font-size: 13.2px">International Council on Archives</p>
+                <br> 
+            </div>
+            <div class="col-md-3 col-6" style="text-align:Center">
+                <img class="" style="margin-top: px" src="https://not-forgotten.com/logos/oclc.png" width="100px" alt="Generic placeholder image">
+                <br> 
+                <p style="margin-top: 20px; font-size: 13.2px">Online Computer Library Center</p>
+                <br> 
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="container-fluid">
+        <div class="row footerlink">
+            <div class="col-md-2 col-6">
+                <ul class="nav flex-column  lighten-4 py-4">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#!">How it works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#!">Packages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#!">Explore Library</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-6">
+                <ul class="nav flex-column lighten-4 py-4">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#!">I have a licence code</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#!">Get Started</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#!">FAQs</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-6">
+                <ul class="nav flex-column  lighten-4 py-4">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#!">View our Brochure</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#!">Our Story</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#!">Get in touch</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-6">
+                <ul class="nav flex-column  lighten-4 py-4">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#!">Your Privacy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#!">Terms and conditions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#!">Privacy Policy</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-6">
+                <ul class="nav flex-column  lighten-4 py-4">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#!">Follow our social</a>
+                    </li>
+                    <li class="nav-item" style="display: inline-block !important;">
+                      <a href="https://www.facebook.com/am.not.forgotten/" target="_blank" data-v-09dde08b><svg id="facebook-logo-button" xmlns="http://www.w3.org/2000/svg" width="29.791" height="29.791" viewBox="0 0 29.791 29.791" data-v-09dde08b><path id="Shape" d="M14.9,29.791a14.9,14.9,0,1,1,14.9-14.9A14.912,14.912,0,0,1,14.9,29.791ZM10.878,12.367V15.42h1.707v8.638h3.591V15.42H18.6l.313-3.052H16.177V10.574a.733.733,0,0,1,.761-.832H18.87V6.779l-2.66-.01A3.4,3.4,0,0,0,13.291,8.05a4.027,4.027,0,0,0-.705,2.342v1.975Z" fill="#1e3246" data-v-09dde08b></path></svg></a> 
+                      <a style="margin-left: 10px" href="https://www.instagram.com/am.not.forgotten/" target="_blank"><img src="https://not-forgotten.com/instagram.svg" alt="Instagram"></a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="bottomfooter">
+        Copyright 2019 Not Forgotten
+    </div>
+</body>
+
+</html>
