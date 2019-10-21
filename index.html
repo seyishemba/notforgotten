@@ -117,6 +117,37 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
 }
+          @media only screen and (max-width: 900px){
+            .navbar-brand{
+              width: 250px
+            }
+            .blockchain{
+              font-size: 50px
+            }
+            .blockchain-wrapper{
+              padding: 80px 20px !important
+            }
+            .nav-link{
+              /*    padding: 5px 10px !important;*/
+            /*  display: inline-block !important;*/
+            /*      margin-left: 5px !important;*/
+            }
+            .nav-item{
+            /*  display: inline-block !important;*/
+            }
+            .mobiletabs{
+             overflow-x: auto;
+  overflow-y: hidden;
+  display: -webkit-box;
+  display: -moz-box;
+            }
+            .mobiletabs>li{
+              float: none;
+            }
+            .mobilesee{
+              padding: 20px !important;
+            }
+}
     </style>
 </head>
 
@@ -167,7 +198,7 @@
             <!-- Collapsible content -->
 
         </nav>
-        <div style="padding: 80px 50px;">
+        <div style="padding: 80px 50px;" class="blockchain-wrapper">
           <Br>
           <Br>
             <div class="container">
@@ -175,7 +206,7 @@
             </div>
         </div>
         <div class="container">
-            <ul class="nav nav-tabs" style="border-bottom: none">
+            <ul class="nav nav-tabs mobiletabs" style="border-bottom: none">
                 <li class="nav-item">
                     <span class="nav-link active" data-toggle="tab"  href="#contract"><strong>The Contract</strong></span>
                 </li>
@@ -199,24 +230,24 @@
         <div id="contract" class="tab-pane in active container-fluid">
             <div class="row">
                 <div class="col-md-3">
-                    <div style="padding: 60px 20px">
+                    <div style="padding: 60px 20px" class="mobilesee">
                         <strong>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus in quam malesuada, vulputate est et, egestas justo. 
     </strong>
                         <br>
                         <br>
-                        <button class="btn btn-" style="font-weight:bold;background: #ffc846;border: 1px solid #ffc846; border-radius: 100px; padding-left: 20px; padding-right: 20px; margin-left:10px">See it on Etherum</button>
+                        <button class="btn btn-block" style="font-weight:bold;background: #ffc846;border: 1px solid #ffc846; border-radius: 100px; padding-left: 20px; padding-right: 20px; margin-left:10px">See it on Etherum</button>
                     </div>
                 </div>
                 <div class="col-md-9">
                     <Br>
                     <div class="row">
-                        <div class="col-md-1 col-1" style="padding-top: 9px;">
+                        <div class="col-md-1 col-2" style="padding-top: 9px;">
                             <Center>
                                 <i class="fa fa-search" style="opacity: .5"> </i>
                             </Center>
                         </div>
-                        <div class="col-md-6 col-11" style="padding:0px">
+                        <div class="col-md-6 col-9" style="padding:0px">
                             <input type="text" class="form-control" style="border-radius: 40px" placeholder="SEARCH">
                         </div>
                     </div>
@@ -230,18 +261,18 @@
 </style>
                         <div class="col-md-6" style="margin-bottom: 20px; ">
                             <div class="row">
-                                <div class=" d-flex" style="background:rgb(30, 50, 70); padding: 15px; min-height: 210px; width: 26%">
+                                <div class=" d-flex" style="background:rgb(30, 50, 70); padding: 15px; min-height: 210px; width: 32%">
                                     <h4 style=" color: #ffc846; font-weight:bold; line-height: 30px; font-size: 15px">
       Given Name,
     <br>
       Last Name
       <br>
 <br>
-    <div class="btn btn-xs" style="font-weight:bold;background: #ffc846;border: 1px solid #ffc846; border-radius: 100px; padding:5px 10px; color: black; font-size: 10px; bottom: 20px; position: absolute; left: 0px">See it on Etherum</div>
+    <div class="btn btn-xs" style="font-weight:bold;background: #ffc846;border: 1px solid #ffc846; border-radius: 100px; padding:5px ; color: black; font-size: 10px; bottom: 20px; position: absolute; left: 0px">See it on Etherum</div>
     </h4>
 
                                 </div>
-                                <div class=" " style="background: white; padding: 10px; font-size: 12px; height:210px; width: 72%; overflow: scroll;">
+                                <div class=" " style="background: white; padding: 10px; font-size: 12px; height:210px; width: 67%; overflow: scroll;">
                                   <div class="row border-bottom"><div class="col-5 text-bold">Year</div><div class="col-7">1974</div></div>
                                   <div class="row border-bottom"><div class="col-5 text-bold">GECCOM UID</div><div class="col-7">NotForgotten Digital Preservation Library LLC, Delaware company file 7406212. OCLC library</div></div>
                                   <div class="row border-bottom"><div class="col-5 text-bold">DCLC/WorldCat Ref</div><div class="col-7">https://libraryrecords.not-forgotten.com/digital/collection/NotForgotten/id/42/rec/</div></div>
@@ -253,24 +284,22 @@
                                 </div>
 
                             </div>
-
-
                         </div>
 
-                        <div class="col-md-6" style="margin-bottom: 20px; ">
+          <div class="col-md-6" style="margin-bottom: 20px; ">
                             <div class="row">
-                                <div class=" d-flex" style="background:rgb(30, 50, 70); padding: 15px; min-height: 210px; width: 26%">
+                                <div class=" d-flex" style="background:rgb(30, 50, 70); padding: 15px; min-height: 210px; width: 32%">
                                     <h4 style=" color: #ffc846; font-weight:bold; line-height: 30px; font-size: 15px">
       Given Name,
     <br>
       Last Name
       <br>
 <br>
-    <div class="btn btn-xs" style="font-weight:bold;background: #ffc846;border: 1px solid #ffc846; border-radius: 100px; padding:5px 10px; color: black; font-size: 10px; bottom: 20px; position: absolute; left: 0px">See it on Etherum</div>
+    <div class="btn btn-xs" style="font-weight:bold;background: #ffc846;border: 1px solid #ffc846; border-radius: 100px; padding:5px ; color: black; font-size: 10px; bottom: 20px; position: absolute; left: 0px">See it on Etherum</div>
     </h4>
 
                                 </div>
-                                <div class=" " style="background: white; padding: 10px; font-size: 12px; height:210px; width: 72%; overflow: scroll;">
+                                <div class=" " style="background: white; padding: 10px; font-size: 12px; height:210px; width: 67%; overflow: scroll;">
                                   <div class="row border-bottom"><div class="col-5 text-bold">Year</div><div class="col-7">1974</div></div>
                                   <div class="row border-bottom"><div class="col-5 text-bold">GECCOM UID</div><div class="col-7">NotForgotten Digital Preservation Library LLC, Delaware company file 7406212. OCLC library</div></div>
                                   <div class="row border-bottom"><div class="col-5 text-bold">DCLC/WorldCat Ref</div><div class="col-7">https://libraryrecords.not-forgotten.com/digital/collection/NotForgotten/id/42/rec/</div></div>
@@ -282,24 +311,21 @@
                                 </div>
 
                             </div>
-
-
                         </div>
-
-                        <div class="col-md-6" style="margin-bottom: 20px; ">
+          <div class="col-md-6" style="margin-bottom: 20px; ">
                             <div class="row">
-                                <div class=" d-flex" style="background:rgb(30, 50, 70); padding: 15px; min-height: 210px; width: 26%">
+                                <div class=" d-flex" style="background:rgb(30, 50, 70); padding: 15px; min-height: 210px; width: 32%">
                                     <h4 style=" color: #ffc846; font-weight:bold; line-height: 30px; font-size: 15px">
       Given Name,
     <br>
       Last Name
       <br>
 <br>
-    <div class="btn btn-xs" style="font-weight:bold;background: #ffc846;border: 1px solid #ffc846; border-radius: 100px; padding:5px 10px; color: black; font-size: 10px; bottom: 20px; position: absolute; left: 0px">See it on Etherum</div>
+    <div class="btn btn-xs" style="font-weight:bold;background: #ffc846;border: 1px solid #ffc846; border-radius: 100px; padding:5px ; color: black; font-size: 10px; bottom: 20px; position: absolute; left: 0px">See it on Etherum</div>
     </h4>
 
                                 </div>
-                                <div class=" " style="background: white; padding: 10px; font-size: 12px; height:210px; width: 72%; overflow: scroll;">
+                                <div class=" " style="background: white; padding: 10px; font-size: 12px; height:210px; width: 67%; overflow: scroll;">
                                   <div class="row border-bottom"><div class="col-5 text-bold">Year</div><div class="col-7">1974</div></div>
                                   <div class="row border-bottom"><div class="col-5 text-bold">GECCOM UID</div><div class="col-7">NotForgotten Digital Preservation Library LLC, Delaware company file 7406212. OCLC library</div></div>
                                   <div class="row border-bottom"><div class="col-5 text-bold">DCLC/WorldCat Ref</div><div class="col-7">https://libraryrecords.not-forgotten.com/digital/collection/NotForgotten/id/42/rec/</div></div>
@@ -311,24 +337,21 @@
                                 </div>
 
                             </div>
-
-
                         </div>
-
-                        <div class="col-md-6" style="margin-bottom: 20px; ">
+              <div class="col-md-6" style="margin-bottom: 20px; ">
                             <div class="row">
-                                <div class=" d-flex" style="background:rgb(30, 50, 70); padding: 15px; min-height: 210px; width: 26%">
+                                <div class=" d-flex" style="background:rgb(30, 50, 70); padding: 15px; min-height: 210px; width: 32%">
                                     <h4 style=" color: #ffc846; font-weight:bold; line-height: 30px; font-size: 15px">
       Given Name,
     <br>
       Last Name
       <br>
 <br>
-    <div class="btn btn-xs" style="font-weight:bold;background: #ffc846;border: 1px solid #ffc846; border-radius: 100px; padding:5px 10px; color: black; font-size: 10px; bottom: 20px; position: absolute; left: 0px">See it on Etherum</div>
+    <div class="btn btn-xs" style="font-weight:bold;background: #ffc846;border: 1px solid #ffc846; border-radius: 100px; padding:5px ; color: black; font-size: 10px; bottom: 20px; position: absolute; left: 0px">See it on Etherum</div>
     </h4>
 
                                 </div>
-                                <div class=" " style="background: white; padding: 10px; font-size: 12px; height:210px; width: 72%; overflow: scroll;">
+                                <div class=" " style="background: white; padding: 10px; font-size: 12px; height:210px; width: 67%; overflow: scroll;">
                                   <div class="row border-bottom"><div class="col-5 text-bold">Year</div><div class="col-7">1974</div></div>
                                   <div class="row border-bottom"><div class="col-5 text-bold">GECCOM UID</div><div class="col-7">NotForgotten Digital Preservation Library LLC, Delaware company file 7406212. OCLC library</div></div>
                                   <div class="row border-bottom"><div class="col-5 text-bold">DCLC/WorldCat Ref</div><div class="col-7">https://libraryrecords.not-forgotten.com/digital/collection/NotForgotten/id/42/rec/</div></div>
@@ -340,10 +363,165 @@
                                 </div>
 
                             </div>
-
-
                         </div>
 
+            <div class="col-md-6" style="margin-bottom: 20px; ">
+                            <div class="row">
+                                <div class=" d-flex" style="background:rgb(30, 50, 70); padding: 15px; min-height: 210px; width: 32%">
+                                    <h4 style=" color: #ffc846; font-weight:bold; line-height: 30px; font-size: 15px">
+      Given Name,
+    <br>
+      Last Name
+      <br>
+<br>
+    <div class="btn btn-xs" style="font-weight:bold;background: #ffc846;border: 1px solid #ffc846; border-radius: 100px; padding:5px ; color: black; font-size: 10px; bottom: 20px; position: absolute; left: 0px">See it on Etherum</div>
+    </h4>
+
+                                </div>
+                                <div class=" " style="background: white; padding: 10px; font-size: 12px; height:210px; width: 67%; overflow: scroll;">
+                                  <div class="row border-bottom"><div class="col-5 text-bold">Year</div><div class="col-7">1974</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">GECCOM UID</div><div class="col-7">NotForgotten Digital Preservation Library LLC, Delaware company file 7406212. OCLC library</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">DCLC/WorldCat Ref</div><div class="col-7">https://libraryrecords.not-forgotten.com/digital/collection/NotForgotten/id/42/rec/</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">Video Record Locator</div><div class="col-7">s3-notforgotten-singlefile-or-1.s3.amazonaws.com/notforgotten/2019/re-creation+of+case+studie</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">Transaction #</div><div class="col-7">Ox30fc0104ea4ee47672d7fe017c68e6040113377ce0250e038b6d46e207bcb706</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold"> Initial Transaction Date</div><div class="col-7">21 Aug 2019</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">Transaction Last Modification Date</div><div class="col-7">09 Sept 2019</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold"> Number of years on contract</div><div class="col-7">300</div></div>
+                                </div>
+
+                            </div>
+                        </div>
+      <div class="col-md-6" style="margin-bottom: 20px; ">
+                            <div class="row">
+                                <div class=" d-flex" style="background:rgb(30, 50, 70); padding: 15px; min-height: 210px; width: 32%">
+                                    <h4 style=" color: #ffc846; font-weight:bold; line-height: 30px; font-size: 15px">
+      Given Name,
+    <br>
+      Last Name
+      <br>
+<br>
+    <div class="btn btn-xs" style="font-weight:bold;background: #ffc846;border: 1px solid #ffc846; border-radius: 100px; padding:5px ; color: black; font-size: 10px; bottom: 20px; position: absolute; left: 0px">See it on Etherum</div>
+    </h4>
+
+                                </div>
+                                <div class=" " style="background: white; padding: 10px; font-size: 12px; height:210px; width: 67%; overflow: scroll;">
+                                  <div class="row border-bottom"><div class="col-5 text-bold">Year</div><div class="col-7">1974</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">GECCOM UID</div><div class="col-7">NotForgotten Digital Preservation Library LLC, Delaware company file 7406212. OCLC library</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">DCLC/WorldCat Ref</div><div class="col-7">https://libraryrecords.not-forgotten.com/digital/collection/NotForgotten/id/42/rec/</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">Video Record Locator</div><div class="col-7">s3-notforgotten-singlefile-or-1.s3.amazonaws.com/notforgotten/2019/re-creation+of+case+studie</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">Transaction #</div><div class="col-7">Ox30fc0104ea4ee47672d7fe017c68e6040113377ce0250e038b6d46e207bcb706</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold"> Initial Transaction Date</div><div class="col-7">21 Aug 2019</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">Transaction Last Modification Date</div><div class="col-7">09 Sept 2019</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold"> Number of years on contract</div><div class="col-7">300</div></div>
+                                </div>
+
+                            </div>
+                        </div>
+
+      <div class="col-md-6" style="margin-bottom: 20px; ">
+                            <div class="row">
+                                <div class=" d-flex" style="background:rgb(30, 50, 70); padding: 15px; min-height: 210px; width: 32%">
+                                    <h4 style=" color: #ffc846; font-weight:bold; line-height: 30px; font-size: 15px">
+      Given Name,
+    <br>
+      Last Name
+      <br>
+<br>
+    <div class="btn btn-xs" style="font-weight:bold;background: #ffc846;border: 1px solid #ffc846; border-radius: 100px; padding:5px ; color: black; font-size: 10px; bottom: 20px; position: absolute; left: 0px">See it on Etherum</div>
+    </h4>
+
+                                </div>
+                                <div class=" " style="background: white; padding: 10px; font-size: 12px; height:210px; width: 67%; overflow: scroll;">
+                                  <div class="row border-bottom"><div class="col-5 text-bold">Year</div><div class="col-7">1974</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">GECCOM UID</div><div class="col-7">NotForgotten Digital Preservation Library LLC, Delaware company file 7406212. OCLC library</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">DCLC/WorldCat Ref</div><div class="col-7">https://libraryrecords.not-forgotten.com/digital/collection/NotForgotten/id/42/rec/</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">Video Record Locator</div><div class="col-7">s3-notforgotten-singlefile-or-1.s3.amazonaws.com/notforgotten/2019/re-creation+of+case+studie</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">Transaction #</div><div class="col-7">Ox30fc0104ea4ee47672d7fe017c68e6040113377ce0250e038b6d46e207bcb706</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold"> Initial Transaction Date</div><div class="col-7">21 Aug 2019</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">Transaction Last Modification Date</div><div class="col-7">09 Sept 2019</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold"> Number of years on contract</div><div class="col-7">300</div></div>
+                                </div>
+
+                            </div>
+                        </div>
+            <div class="col-md-6" style="margin-bottom: 20px; ">
+                            <div class="row">
+                                <div class=" d-flex" style="background:rgb(30, 50, 70); padding: 15px; min-height: 210px; width: 32%">
+                                    <h4 style=" color: #ffc846; font-weight:bold; line-height: 30px; font-size: 15px">
+      Given Name,
+    <br>
+      Last Name
+      <br>
+<br>
+    <div class="btn btn-xs" style="font-weight:bold;background: #ffc846;border: 1px solid #ffc846; border-radius: 100px; padding:5px ; color: black; font-size: 10px; bottom: 20px; position: absolute; left: 0px">See it on Etherum</div>
+    </h4>
+
+                                </div>
+                                <div class=" " style="background: white; padding: 10px; font-size: 12px; height:210px; width: 67%; overflow: scroll;">
+                                  <div class="row border-bottom"><div class="col-5 text-bold">Year</div><div class="col-7">1974</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">GECCOM UID</div><div class="col-7">NotForgotten Digital Preservation Library LLC, Delaware company file 7406212. OCLC library</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">DCLC/WorldCat Ref</div><div class="col-7">https://libraryrecords.not-forgotten.com/digital/collection/NotForgotten/id/42/rec/</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">Video Record Locator</div><div class="col-7">s3-notforgotten-singlefile-or-1.s3.amazonaws.com/notforgotten/2019/re-creation+of+case+studie</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">Transaction #</div><div class="col-7">Ox30fc0104ea4ee47672d7fe017c68e6040113377ce0250e038b6d46e207bcb706</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold"> Initial Transaction Date</div><div class="col-7">21 Aug 2019</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">Transaction Last Modification Date</div><div class="col-7">09 Sept 2019</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold"> Number of years on contract</div><div class="col-7">300</div></div>
+                                </div>
+
+                            </div>
+                        </div>
+            <div class="col-md-6" style="margin-bottom: 20px; ">
+                            <div class="row">
+                                <div class=" d-flex" style="background:rgb(30, 50, 70); padding: 15px; min-height: 210px; width: 32%">
+                                    <h4 style=" color: #ffc846; font-weight:bold; line-height: 30px; font-size: 15px">
+      Given Name,
+    <br>
+      Last Name
+      <br>
+<br>
+    <div class="btn btn-xs" style="font-weight:bold;background: #ffc846;border: 1px solid #ffc846; border-radius: 100px; padding:5px ; color: black; font-size: 10px; bottom: 20px; position: absolute; left: 0px">See it on Etherum</div>
+    </h4>
+
+                                </div>
+                                <div class=" " style="background: white; padding: 10px; font-size: 12px; height:210px; width: 67%; overflow: scroll;">
+                                  <div class="row border-bottom"><div class="col-5 text-bold">Year</div><div class="col-7">1974</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">GECCOM UID</div><div class="col-7">NotForgotten Digital Preservation Library LLC, Delaware company file 7406212. OCLC library</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">DCLC/WorldCat Ref</div><div class="col-7">https://libraryrecords.not-forgotten.com/digital/collection/NotForgotten/id/42/rec/</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">Video Record Locator</div><div class="col-7">s3-notforgotten-singlefile-or-1.s3.amazonaws.com/notforgotten/2019/re-creation+of+case+studie</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">Transaction #</div><div class="col-7">Ox30fc0104ea4ee47672d7fe017c68e6040113377ce0250e038b6d46e207bcb706</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold"> Initial Transaction Date</div><div class="col-7">21 Aug 2019</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">Transaction Last Modification Date</div><div class="col-7">09 Sept 2019</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold"> Number of years on contract</div><div class="col-7">300</div></div>
+                                </div>
+
+                            </div>
+                        </div>
+          <div class="col-md-6" style="margin-bottom: 20px; ">
+                            <div class="row">
+                                <div class=" d-flex" style="background:rgb(30, 50, 70); padding: 15px; min-height: 210px; width: 32%">
+                                    <h4 style=" color: #ffc846; font-weight:bold; line-height: 30px; font-size: 15px">
+      Given Name,
+    <br>
+      Last Name
+      <br>
+<br>
+    <div class="btn btn-xs" style="font-weight:bold;background: #ffc846;border: 1px solid #ffc846; border-radius: 100px; padding:5px ; color: black; font-size: 10px; bottom: 20px; position: absolute; left: 0px">See it on Etherum</div>
+    </h4>
+
+                                </div>
+                                <div class=" " style="background: white; padding: 10px; font-size: 12px; height:210px; width: 67%; overflow: scroll;">
+                                  <div class="row border-bottom"><div class="col-5 text-bold">Year</div><div class="col-7">1974</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">GECCOM UID</div><div class="col-7">NotForgotten Digital Preservation Library LLC, Delaware company file 7406212. OCLC library</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">DCLC/WorldCat Ref</div><div class="col-7">https://libraryrecords.not-forgotten.com/digital/collection/NotForgotten/id/42/rec/</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">Video Record Locator</div><div class="col-7">s3-notforgotten-singlefile-or-1.s3.amazonaws.com/notforgotten/2019/re-creation+of+case+studie</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">Transaction #</div><div class="col-7">Ox30fc0104ea4ee47672d7fe017c68e6040113377ce0250e038b6d46e207bcb706</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold"> Initial Transaction Date</div><div class="col-7">21 Aug 2019</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold">Transaction Last Modification Date</div><div class="col-7">09 Sept 2019</div></div>
+                                  <div class="row border-bottom"><div class="col-5 text-bold"> Number of years on contract</div><div class="col-7">300</div></div>
+                                </div>
+
+                            </div>
+                        </div>
 
 
                     </div>
